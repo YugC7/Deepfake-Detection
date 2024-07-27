@@ -15,7 +15,6 @@ Welcome to the Deepfake Detection Module and UI, developed by Team Data Gurus. T
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Modules](#modules)
 - [Contributing](#contributing)
 - [Copyright](#Copyright)
@@ -26,7 +25,7 @@ Welcome to the Deepfake Detection Module and UI, developed by Team Data Gurus. T
 
 - Python 3.7 or higher
 - pip (Python package installer)
-- Node.js and npm (for UI)
+- Streamlit library for UI
 
 ### Clone the Repository
 
@@ -49,40 +48,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 pip install -r requirements.txt
 ```
-
-### Frontend Setup
-
-1. Navigate to the `ui` directory:
-
-```bash
-cd ui
-```
-
-2. Install the necessary packages:
-
-```bash
-npm install
-```
-
-3. Start the UI:
-
-```bash
-npm start
+3. Run UI
+''' bash
+streamlit run streamlit_deepkfake_detector.py
 ```
 
 The UI should now be running at `http://localhost:3000`.
-
-## Usage
-
-### Running the Backend
-
-Make sure your virtual environment is activated, then run the backend server:
-
-```bash
-python app.py
-```
-
-The backend server should now be running at `http://localhost:5000`.
 
 ### Using the UI
 
