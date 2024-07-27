@@ -9,13 +9,10 @@ Welcome to the Deepfake Detection Module and UI, developed by Team Data Gurus. T
 - **Deepfake Detection**: Utilizes state-of-the-art machine learning models to detect deepfake videos.
 - **Reliability**: Trained and tested on a Dataset of 1500 images, this model can easily detect most deepfake videos and photos.
 - **User-Friendly UI**: A web-based interface to easily upload and analyze videos.
-- **Detailed Reports**: Generates comprehensive reports on the analyzed videos.
-- **Scalable**: Designed to handle multiple video uploads and analysis simultaneously.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Modules](#modules)
 - [Contributing](#contributing)
 - [Copyright](#Copyright)
 
@@ -49,37 +46,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 3. Run UI
-''' bash
-streamlit run streamlit_deepkfake_detector.py
+
+```bash
+streamlit run streamlit_deepkafe_detector.py
 ```
-
-The UI should now be running at `http://localhost:3000`.
-
-### Using the UI
-
-1. Open your browser and go to `http://localhost:3000`.
-2. Upload the video file you want to analyze.
-3. Wait for the analysis to complete and view the results.
-
-## Modules
-
-### Deepfake Detection
-
-The core module for detecting deepfakes is located in the `deepfake_detection` directory. It contains the following components:
-
-- **model.py**: Defines the machine learning model used for detection.
-- **preprocessing.py**: Contains functions for preprocessing video files.
-- **inference.py**: Handles the inference logic to detect deepfakes.
-- **utils.py**: Utility functions for various tasks.
-
-### User Interface
-
-The UI is built with React and is located in the `ui` directory. It contains the following components:
-
-- **App.js**: Main component of the UI.
-- **Upload.js**: Handles the video upload functionality.
-- **Results.js**: Displays the results of the analysis.
-- **api.js**: Contains functions for communicating with the backend.
 
 ## Contributing
 
