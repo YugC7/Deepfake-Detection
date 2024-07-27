@@ -66,5 +66,3 @@ Please ensure that your code adheres to our coding standards and includes approp
 
 This project is a property of Team Data Gurus by DigiNexus TechHub Pvt. Ltd. Copying is prohibited.
 ---
-
-Feel free to customize this README further to better fit your project's specifics!
