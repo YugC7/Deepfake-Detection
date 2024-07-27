@@ -43,7 +43,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 2. Install the required Python packages:
 
 ```bash
-pip install -r requirements.txt
+pip install streamlit tensorflow cv2 numpy mtcnn
 ```
 3. Run UI
 
