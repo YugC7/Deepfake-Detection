@@ -121,10 +121,9 @@ We welcome contributions from the community. To contribute, please follow these 
 
 Please ensure that your code adheres to our coding standards and includes appropriate tests.
 
-## License
+## Copyright
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
+This project is a property of Team Data Gurus by DigiNexus TechHub Pvt. Ltd. Copying is prohibited.
 ---
 
 Feel free to customize this README further to better fit your project's specifics!
