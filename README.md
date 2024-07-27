@@ -18,7 +18,7 @@ Welcome to the Deepfake Detection Module and UI, developed by Team Data Gurus. T
 - [Usage](#usage)
 - [Modules](#modules)
 - [Contributing](#contributing)
-- [License](#license)
+- [Copyright](#Copyright)
 
 ## Installation
 
